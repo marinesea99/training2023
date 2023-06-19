@@ -521,7 +521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 500597754}
   m_Layer: 0
-  m_Name: SecondPivot
+  m_Name: MinutePivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -541,7 +541,7 @@ Transform:
   m_Children:
   - {fileID: 1705033489}
   m_Father: {fileID: 1090173865}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &503031138
 GameObject:
@@ -653,7 +653,7 @@ GameObject:
   - component: {fileID: 642280460}
   - component: {fileID: 642280459}
   m_Layer: 0
-  m_Name: MinuteArm
+  m_Name: SecondArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1035,7 +1035,7 @@ GameObject:
   m_Component:
   - component: {fileID: 863683840}
   m_Layer: 0
-  m_Name: MinutePivot
+  m_Name: SecondPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1055,7 +1055,7 @@ Transform:
   m_Children:
   - {fileID: 642280458}
   m_Father: {fileID: 1090173865}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -1174,8 +1174,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoursPivot: {fileID: 2049064310}
-  minutesPivot: {fileID: 863683840}
-  secondsPivot: {fileID: 500597754}
+  minutesPivot: {fileID: 500597754}
+  secondsPivot: {fileID: 863683840}
 --- !u!136 &1090173862
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1253,8 +1253,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2049064310}
-  - {fileID: 863683840}
   - {fileID: 500597754}
+  - {fileID: 863683840}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
@@ -1465,7 +1465,7 @@ GameObject:
   - component: {fileID: 1705033491}
   - component: {fileID: 1705033490}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: MinuteArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
